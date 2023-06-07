@@ -2,7 +2,7 @@
 - features all functions provided in the API
 ### API wrapper includes:
 ```
-get_balance() - returns balance; throws warning if balance is 0; returns a string
+get_balance() - returns balance; throws warning if balance is 0; returns an integer
 
 reuse_number(orderid : int) - takes orderid of past order; allows for re-use of an old number; returns a string
 
